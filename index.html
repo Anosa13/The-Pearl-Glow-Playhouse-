@@ -113,13 +113,4 @@
             particlesMesh.rotation.y += (mouseX * 0.5 - particlesMesh.rotation.y) * 0.05;
 
             // Scroll reaction: Rotate faster based on page scroll window position
-            particlesMesh.rotation.z = window.scrollY * 0.001;
-
-            renderer.render(scene, camera);
-            window.requestAnimationFrame(animate);
-        };
-        animate();
-    </script>
-</body>
-</html>
-
+            
