@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tooth Hero</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7fbff;
+            color: #18324a;
+            text-align: center;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0 0 15px;
+        }
+
+        p {
+            font-size: 20px;
+            max-width: 600px;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            background: #18324a;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <h1>Welcome to Tooth Hero!</h1>
+
+        <p>
+            Learn how to keep your teeth healthy,
+            strong, and sparkling!
+        </p>
+
+        <button onclick="startExploring()">
+            Start Exploring
+        </button>
+    </section>
+
+    <script>
+        function startExploring() {
+            alert("Your Tooth Hero adventure is starting!");
+        }
+    </script>
+
+</body>
+</html>
